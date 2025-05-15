@@ -72,6 +72,7 @@ plt.title('PMF of bins')
 plt.show()
 '''
 
+'''
 bins_dict = {}
 for b in bins_indices:
     bins_dict[b]: 0 # add new dict key-value pair for each bin number
@@ -79,7 +80,7 @@ for b in bins_indices:
 for sample in samples:
     if sample in bins_dict:
         bins_dict[sample]
-
+'''
 
 
 
